@@ -26,7 +26,8 @@ const campgroundRoutes = require('./routes/campgrounds');
 const reviewRoutes = require('./routes/reviews');
 const helmet = require('helmet')
 const mongoSanitize = require('express-mongo-sanitize');
-const dbUrl = process.env.DB_URL || 'mongodb://localhost:27017/yelp-camp';
+const dbUrl = process.env.DB_URL ;
+// const dbUrl = 'mongodb+srv://adminuser:bUYgm8UlY9LwqEIp@yelpcamp.ruvyj.mongodb.net/?retryWrites=true&w=majority';
 // const reviews = require('./routes/reviews');
 // 'mongodb://localhost:27017/yelp-camp'
 
